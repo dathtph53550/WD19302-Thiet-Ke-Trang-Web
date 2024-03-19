@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#layout{
+    width: 960px;
+    margin: 0px auto;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(20, 93, 153);
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu li{
+    list-style: none;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover{
+    background-color: yellow;
+    color: #133d74;
+}
+footer{
+    background-color: rgb(20, 93, 153);
+    width: 100%;
+    height: 50px;
+}
+.noidung{
+    margin-top: 10px;
+}
+.boxanh{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.anh{
+    margin-left: 5px;
+    padding: 20px 20px;
+    border: 2px solid  rgb(7, 89, 156);
+}
+.anh img{
+    width: 150px;
+    height: 173px;
+}
+.anh .name a{
+    text-decoration: none;
+    color: black;
+}
+.anh .name a:hover{
+    color:red;
+}
+.anh .name{
+    margin-top: 3px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.anh .gia{
+    text-align: center;
+}
+
+.banner img{
+    flex: 1;
+}
+.cuoi{
+    color: white;
+    text-align: center;
+    margin-top: 18px;
+    padding: 15px 10px;
+}
+.boxanh  .text input{
+    padding: 15px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(7, 89, 156) ;
+}
+.boxanh .text button{
+    background-color: #42a8ca; /* Màu xanh nước biển nhạt */
+    color: #ffffff; /* Màu chữ trắng */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    transition: background-color 0.3s ease;
+}
+.boxanh .text button:hover{
+    background-color: #133d74;
+}
+
+

@@ -1,0 +1,10 @@
+.tong{
+    display: flex;
+    justify-content: space-around;
+}
+.tong .box{
+    border: 1px solid black;
+}
+.tong .box .tieude{
+    text-align: center;
+}

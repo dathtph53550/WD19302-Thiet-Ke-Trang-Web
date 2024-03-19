@@ -1,0 +1,40 @@
+/* h2.+classname{
+    color: red;
+} */
+
+/* classname + selector{
+    color: green; //Lấy con,cháu,chắt 
+} */
+
+/* classname > selector{
+    color:aqua; //Lấy thằng đầu tiên là thằng con 
+} */
+
+.menu{
+    text-align: center;
+    border: 1px solid red;
+    background-color: aqua;
+    height: 30px;
+    text-transform: capitalize;
+}
+body{
+    text-align: center;
+    background: url(https://pinetree.vn/wp-content/uploads/2022/08/FPT-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    font-variant:  small-caps;
+    font-size: 24px;
+    /* font-weight: bold; */
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: rgb(248, 6, 6);
+    text-shadow: 3 5 3 rgb(7, 194, 32) ;
+    text-decoration: underline;
+}

@@ -1,0 +1,120 @@
+#layout{
+    width: 1000px;
+    margin: 0px auto;
+}
+header{
+    width: 100%;
+    height: 300px;
+    background-image: url(img/Screenshot\ 2024-01-30\ 220620.png);
+    background-size: 100% 100%;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(24, 10, 181);
+}
+/* .menu{
+    display: flex;
+    justify-content: center; 
+} */
+nav li{
+    list-style: none;
+    line-height: 50px;
+    margin-left: 30px;  
+}
+nav li a{
+    text-decoration: none;
+    color:rgb(236, 231, 231);
+    font-size: 20px;
+    font-variant: small-caps;
+}
+nav li a:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+.noidung{
+    display: flex;
+    background-color: bisque;
+}
+article{
+    width: 75%;
+    height: 400px;
+}
+aside{
+    width: 25%;
+    height: 400px;
+    background-color: rgb(234, 229, 234);
+}
+.mndung{
+    margin: 10px auto;
+    list-style: none;
+    border-radius: 0px;
+    background-color: rgb(237, 234, 226);
+    height: 390px;
+    margin-top: 0px;
+}
+.mndung li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mndung li a{
+    text-decoration: none;
+    height: 30px;
+    padding-left: 40px;
+    border-top: 1px dotted rgb(210, 210, 203);
+    /* border-radius: 10px; */
+    display: block;
+    line-height: 30px;
+    background:url(img/img/icon1.jpg) no-repeat 10px center;
+    background-size: 1px;
+}
+.mndung li a:hover{
+    background: url(/Lab4/img/img/icon2.jpg) no-repeat 10px center;
+    background-size: 15px;
+    color: red;
+    background-color: yellowgreen;
+}
+footer{
+    background-color: rgb(26, 164, 206);
+    width: 100%;
+    height: 100px;
+    border-top: 5px double red;
+    margin-top: 5px;
+    line-height: 100px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+.menu{
+    position: relative;
+}
+.menu ul{
+    
+    display: flex;
+ margin-left: 0px;
+ font-size: 20px;
+ margin-top: 0px;
+}
+.menuright{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 20px
+}
+.menuright form input{
+    width: 200px;
+    height: 20px;
+}
+.anh1{
+    float: left;
+
+}
+.box1{
+    border: 1px solid rgb(206, 202, 202);
+    display: flex;
+    margin-bottom: 20px;
+}
+.chu{
+    float: right;
+}

@@ -1,0 +1,91 @@
+#container{
+    width: 1150px;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    background: url(img/images/logo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.mnu{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: bisque;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.mnu-left{
+    display: flex;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.mnu-right{
+    display: flex;
+    margin-right: 30px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.mnu li{
+    margin: 0px 10px 0px 0px;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.mnu-right input{
+    margin: 0px 25px 0px 0px;
+    height: 20px;
+    width: 350px;
+}
+.mnu-right button{
+    border-radius: 10px;
+    width: 70px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(71, 66, 66);
+}
+nav li a:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+.noidung{
+    display: flex;
+    background-color: rgb(226, 217, 217);
+}
+article{
+    width: 75%;
+    height: 400px;
+}
+aside{
+    width: 25%;
+    height: 400px;
+    background-color: rgb(235, 240, 240);
+}
+aside hr{
+    height: 2px;
+    color: black;
+}
+.form button{
+    padding: 2px 5px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(51, 177, 51);
+}
+.cuoi{
+    text-align: center;
+}

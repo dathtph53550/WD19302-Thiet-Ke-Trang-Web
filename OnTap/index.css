@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    margin-top: 100px;
+}
+label{
+    font-size: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    margin-bottom: 100px;
+    width: 400px;
+    height: 100px;
+}
+button{
+    margin-right: 100px;
+}
+a{
+    font-size: 100px;
+    margin-right: 100px;
+}
+a:hover{
+    background-color: yellow;
+    color:red;
+}
+del{
+    margin-left: 100px;
+}

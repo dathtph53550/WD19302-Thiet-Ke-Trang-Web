@@ -1,0 +1,98 @@
+#layout{
+    width: 1000px;
+    margin: 0px auto;
+    border: 1px solid gray;
+}
+header{
+    width: 100%;
+    height: 300px;
+    background-image: url(/Lab4/img/img/banner.jpg);
+    background-size: 100% 100%;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(24, 207, 207);
+}
+.menu{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-left{
+    display: flex;
+    margin: 30px;
+    font-size: 10px;
+    text-align: center;
+}
+.meu-right{
+    display: flex;
+    text-align: center;
+}
+nav li{
+    list-style: none;
+    line-height: 50px;
+    margin-left: 30px;  
+}
+nav li a{
+    text-decoration: none;
+    color:red;
+    font-size: 22px;
+    font-variant: small-caps;
+}
+nav li a:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+.noidung{
+    display: flex;
+    background-color: bisque;
+}
+article{
+    width: 75%;
+    height: 400px;
+}
+aside{
+    width: 25%;
+    height: 400px;
+    background-color: rgb(236, 232, 236);
+}
+.mndung{
+    border: 1px solid yellow;
+    margin: 1px auto;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(230, 39, 6);
+    background-color: orange;
+}
+.mndung li a{
+    text-decoration: none;
+    height: 49px;
+    padding-left: 40px;
+    border-top: 1px dotted yellow;
+    /* border-radius: 10px; */
+    display: block;
+    line-height: 50px;
+    background:url(img/img/icon1.jpg) no-repeat 10px center;
+    background-size: 15px;
+}
+.mndung li a:hover{
+    background: url(/Lab4/img/img/icon2.jpg) no-repeat 10px center;
+    background-size: 15px;
+    color: red;
+    background-color: yellowgreen;
+}
+footer{
+    background-color: rgb(29, 216, 216);
+    width: 100%;
+    height: 100px;
+    border-top: 5px double red;
+    margin-top: 5px;
+    line-height: 100px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 20px;
+}

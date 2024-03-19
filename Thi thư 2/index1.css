@@ -1,0 +1,153 @@
+#layout{
+    width: 979px;
+    margin: 0 auto;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+}
+header .trai{
+    margin-top: 7px;
+    margin-left: 7px;
+}
+header .phai{
+    line-height: 80px;
+}
+header .phai input{
+    padding: 5px 5px;
+    width: 200px;
+    border-radius: 8px;
+}
+header .phai button{
+    border: none;
+    border-radius: 8px;
+    background-color: yellow;
+    padding: 5px 5px;
+    margin-right: 10px;
+}
+header .phai button:hover{
+    background-color: blue;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 15px;
+    line-height: 50px;
+    font-size: 20px;
+    padding: 5px;
+}
+nav li:hover{
+    background-color: orangered;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+.banner{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.text{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: darkblue;
+}
+footer{
+    width: 100%;
+    height: auto;
+}
+.tong{
+    display: flex;
+}
+.boxtrai {
+    width: 30%;
+    height: 419px;
+    border: 1px solid orangered;
+}
+.boxtrai .box{
+    padding: 5px 5px;
+}
+.boxtrai .box .anh{
+    margin-top: 10px;
+    text-align: center;
+}
+.boxtrai .box .tieude{
+    margin-left: 13px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.boxtrai .box .tieude a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.boxtrai .box .tieude a:hover{
+    color: blue;
+}
+.boxtrai .box .chu{
+    margin-left: 13px;
+}
+.boxphai{
+    width: 68%;
+    margin-left: 20px;
+}
+.boxphai .box{
+    border: 1px solid orangered;
+    margin-bottom: 20px;
+}
+.boxphai .box{
+    padding: 10px 10px;
+    display: flex;
+}
+.boxphai .box .chucai .tieude{
+    margin-left: 10px;
+}
+.boxphai .box .chucai .tieude a{
+    text-decoration: none;
+    color: orangered;
+}
+.boxphai .box .chucai .tieude a:hover{
+    color: blue;
+}
+.boxphai .box .chucai .chu{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: orangered;
+}
+footer h3{
+    text-align: center;
+    line-height: 50px;
+}
+/* .box{
+    padding: 5px 5px;
+}
+.box .anh{
+    text-align: center;
+}
+.box .tieude{
+    margin-left: 13px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.box .tieude a{
+    text-decoration: none;
+    color: orangered;
+} */

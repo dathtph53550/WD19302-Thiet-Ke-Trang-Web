@@ -1,0 +1,65 @@
+.menu{
+    color: blue;
+    text-align: center;
+    border: 1px solid red;
+    background-color: coral;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px yellow;
+    text-shadow: 1px 1px 1px green;
+    font-variant: small-caps;
+}
+.box1{
+    float:left;
+    width: 31%;
+    height: 200px;
+    text-align: justify;
+}
+
+.box1 > img{
+    width: "150px"; height: "200px";
+    float:left;
+}
+
+.box2 > img{
+    width: "150px"; height: "200px";
+    float:left;
+}
+.box3 > img{
+    width: "150px"; height: "200px";
+    float:left;
+}
+.box2{
+    float:left;
+    width: 33%;
+    height: 200px;
+    text-align: justify;
+}
+.box3{
+    float:left;
+    width: 34%;
+    height: 200px;
+    text-align: justify;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: rgb(248, 6, 6);
+    text-shadow: 3 5 3 yellow ;
+    text-decoration: underline;
+}
+.h3{
+    font-size: 20px;
+    text-decoration: none;
+}
+.tong{
+    line-height: 25px;
+}
+a{
+    font-variant: small-caps;
+    text-decoration: none;
+}
+p{
+    font-size: 10px;
+}

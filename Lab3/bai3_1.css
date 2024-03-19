@@ -1,0 +1,16 @@
+img{
+    width: 20%;
+    height: 150px;
+    padding: 10px;
+    border: 2px groove red;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: yellow;
+    box-shadow: 1px 5px green;
+    margin-bottom: 10px;
+}
+img:hover{
+    box-shadow: 1px 12px 20px red;
+    background-color: aqua;
+    transform: scale(1.2);
+}

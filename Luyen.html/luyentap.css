@@ -1,0 +1,23 @@
+h1{
+    color: #34495e;
+    border: 1px solid red; 
+    font-size: 3rem;
+}
+
+head{
+    text-align: center;
+}
+
+h2{
+    color:rgba(72, 219, 251,1.5);
+}
+
+.main{
+    text-align: center;
+}
+html{
+    background: url(https://static.wixstatic.com/media/5b44bf_e177bfb05d4e491cb2160bd7fadce113~mv2.jpg/v1/fill/w_796,h_448,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5b44bf_e177bfb05d4e491cb2160bd7fadce113~mv2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 10px;
+}

@@ -1,0 +1,28 @@
+h1{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.doan1{
+    color: red;
+    text-shadow: 0px 0px 7px red;
+}
+.doan2{
+    color: blue ;
+}
+.doan3{
+    color: green;
+}
+strong{
+    color: brown;
+}
+body{
+    text-align: centers;
+}
+em{
+    font-variant: small-caps;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}

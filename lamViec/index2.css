@@ -1,0 +1,146 @@
+#layout{
+    width: 1200px;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 150px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: rgb(7, 119, 211);
+    justify-content: center;
+    line-height: 60px;
+}
+nav li{
+    list-style: none;
+    margin-left: 45px;
+    font-size: 25px;
+    padding: 5px 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+nav li a:hover{
+    color: red;
+}
+.nd{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+article{
+    width: 68%;
+    height: auto;
+}
+aside{
+    width: 30%;
+    height: 150px;
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 15px;
+}
+.nd .text{
+    margin-top: 5px;
+    background-color: rgb(7, 119, 211);
+    flex: 1;
+    padding: 10px 10px;
+}
+.nd .text h3{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.nd .sp{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.nd .sp .box{
+    border: 1px solid gray;
+    padding: 20px 20px;
+}
+.nd .sp .box .anh{
+    text-align: center;
+}
+.nd .sp .box .anh img{
+    width: 200px;
+    height: 220px;
+}
+.nd .sp .box .tieude{
+    text-align: center;
+    margin-top: 10px;
+}
+.nd .sp .box .tieude a{
+    text-decoration: none;
+    color:rgb(7, 119, 211);
+    font-size: 23px;
+    font-weight: bold;
+}
+.nd .sp .box .tieude a:hover{
+    color: red;
+}
+.nd .sp .box .gia{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    display: flex;
+}
+.nd .sp .box .gia del{
+    font-size: 18px;
+}
+.nd .sp .box .gia p{
+    margin-left: 9px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nd .sp .box .nut{
+    margin-top: 25px;
+    text-align: center;
+}
+.nd .sp .box .nut button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(96, 219, 14);
+    color: white;
+}
+.nd .sp .box .nut button:hover{
+    background-color: green;
+}
+aside h2{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+aside input{
+    width: 250px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+aside button{
+    margin-top: 5px;
+    padding: 10px 10px;
+    width: 100px;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 10px;
+    background-color:rgb(7, 119, 211) ;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
